@@ -6,13 +6,14 @@ class Dog
     @@all << self
   end
 
-  def clear_all 
+  def clear_all
     @@all = []
   end
 
-  def all 
+  def all
     @@all.each do |name|
       puts name
     end
   end
+
 end
